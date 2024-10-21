@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+body,html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: sans-serif;
+	background: #8F3B23;
+}
+
+
+.Menu {
+	display: flex;
+	align-items: center; /* to center vertically */
+	justify-content: space-between; /* to create a distance between the logo and the list*/
+	background: #8F241B;
+	position: fixed; /* for keeping the nav bar static when scrolling */
+	height:6% ;
+	width: 100%;
+	padding-left: 20px; /* to indent the logo a bit to the right*/
+	font-family: calibri;
+}
+.logo a{
+	font-size: 27px;
+	color: #FEFDE0;
+	font-family: cursive;
+}
+li {
+	display: inline-block; /* to place in a row */
+}
+li a{
+	color: whitesmoke;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+.Contact .Content h2{
+	font-size: 50px;
+}
+.Contact {
+	min-height: 100vh;
+	padding: 80 px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(https://www.atomicarchive.com/media/photographs/testing/soviet/media/rds-37-2.jpg);
+	background-size: cover;
+}
+
+.Contact .Content {
+	color: whitesmoke;
+	max-width: 800px;
+	text-align: center;
+}
+
+
+.Contact .Content p{
+	font-weight: 500;
+	color: #FFFFFF;
+	font-size: 19px;
+	padding-bottom: 50px;
+}
+.Container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30 px;
+}	
+
+.Container .ContactInfo  {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+}
+.Container .ContactInfo .box {
+	position: relative;
+	padding: 10px 0;
+	display: flex;
+}
+.Container .ContactInfo .box .text {
+	display: flex;
+	margin-left: 20 px;	
+	font-size: 50 px;
+	color: whitesmoke;
+	flex-direction: column;
+	font-weight: 300;
+}
+.Container .ContactInfo .box .text p{
+	font-size: 20px;
+}
+
+.ContactForm {
+	width: 35%;
+	padding: 40px;
+	background: white;
+	color: #7D2B1F;
+	border-radius: 10px;
+
+}
+.ContactForm h2{
+	font-size: 30 px;
+	color: #7D2B1F;
+	font-weight: 700;
+}
+.ContactForm .inputBox {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.ContactForm .inputBox input, textarea {
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+}
+
+.ContactForm .inputBox input[type="submit"] {
+	width: 100px;
+	background: #7D2B1F;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.Footer {
+
+	text-align: right;
+	font-weight: bold;
+	color: #FEFDE0;
+	font-size: 24 px;
+
+}

@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+body,html {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	background: white;
+	display: flex;
+}
+
+
+.Menu {
+	display: flex;
+	align-items: center; /* to center vertically */
+	justify-content: space-between; /* to create a distance between the logo and the list*/
+	background: #8F241B;
+	position: fixed; /* for keeping the nav bar static when scrolling */
+	height:6% ;
+	width: 100%;
+	padding-left: 20px; /* to indent the logo a bit to the right*/
+	font-family: calibri;
+}
+.logo a{
+	font-size: 27px;
+	color: #FEFDE0;
+	font-family: cursive;
+}
+li {
+	display: inline-block; /* to place in a row */
+}
+li a{
+	color: whitesmoke;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+
+.Hero-Section {
+	display: flex;
+	flex-direction: column; /* make the p and h2 a column instead of a row */
+	justify-content: center; /*justifies the content to the centere vertically */
+	align-items:flex-end;	/* to put the content to the end */
+	padding-right: 10px; /*for some gap from the right */ 
+	height: 85vh;
+	/*inserting the googled img with corresponding settings similar to the lecture */
+	background-image: url(https://img.freepik.com/premium-photo/gas-mask-field-generative-ai_993599-6499.jpg?w=826);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.Hero-Section h2 {
+	color: white;
+	font-size: 42px;
+	margin-bottom: 15px; /*in order to close the gap between the h2 and p */
+}
+ p {
+ 	margin: 0px;
+ 	color: white;
+	font-size: 20px;
+	font-family:inherit;
+}
+.MainContainer {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+}
+.First-Content,.Second-Content,.Third-Content {
+	margin: 10px;
+}
+.text-content {
+	max-width: 55%;
+	font-size: 20px;
+	color: #8F3B23;
+}
+.text-content p{
+	padding: 20px;
+	font-size: 18px;
+	font-family: inherit;
+	color: #8F3B23;
+
+}
+.nuke {
+	float: right; /* I tried using flex but I could not align the text and the img side by side
+so I used float instead to put the img to the right */
+	max-width: 450px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.Second-Content {
+	display: flex;
+	justify-content: space-between;
+/*	margin: 0px;*/
+}
+
+.Second-Content h3 {
+	padding-left: 0px;
+}
+
+.Second-Content p {
+	padding: 20px;
+}
+
+.Footer {
+	padding: 10px;
+	width: 100%;
+	background-color: #8F241B;
+	text-align: right;
+	font-weight: bold;
+	color: white;
+	font-size: 24 px;
+}
+
