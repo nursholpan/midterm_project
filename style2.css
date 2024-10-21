@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+body,html {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	background: #7D2B1F;
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.Menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #7D2B1F;
+	position: fixed;
+	height:6% ;
+	width: 100%;
+	padding-left: 20px;
+	font-family: calibri;
+}
+
+.logo a{
+	font-size: 27px;
+	color: #FEFDE0;
+	font-family: cursive;
+}
+
+li {
+	display: inline-block; /* to place in a row */
+}
+li a{
+	color: whitesmoke;
+	font-size: 18px;
+	margin-right: 25px;
+}
+.Hero-Section {
+	display: flex;
+	flex-direction: column; /* make the p and h2 a column instead of a row */
+	justify-content: center; /*justifies the content to the centere vertically */
+	align-items:flex-end;	/* to put the content to the end */
+	padding-right: 10px; /*for some gap from the right */ 
+	height: 85vh;
+	/*inserting the googled img with corresponding settings similar to the lecture */
+	background-image: url(https://cdn.shopify.com/s/files/1/0347/9647/0405/articles/FRyYndhWQAM-84F_1_1200x.png?v=1670723750);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.Hero-Section h2 {
+	color: ghostwhite;
+	font-size: 45px;
+	margin-bottom: 15px; /*in order to close the gap between the h2 and p */
+}
+.slider {
+	display: flex;
+	overflow-x: auto;
+	align-items: center;
+	column-gap: 20xp;
+	padding: 20xp;
+	scroll-snap-align: x madatory;
+	margin: 10px;
+}
+.item {
+	min-width: 45%;
+	height: 250 px;
+	border-radius: 20px;
+	padding: 10px;
+	text-align: left;
+}
+.item p{
+	max-width: 85%;
+	color: whitesmoke;
+	padding: 10px;
+}
+.item h2 {
+	color: whitesmoke;
+	margin: 0px;
+	padding: 30px;
+}
+
+img{
+	width: 500px;
+	height:450px;
+	object-fit: cover;
+	border-radius: 10px;
+
+}
+.Footer {
+	padding: 10px;
+	width: 100%;
+	background-color: #8F241B;
+	text-align: right;
+	font-weight: bold;
+	color: white;
+	font-size: 24 px;
+}
